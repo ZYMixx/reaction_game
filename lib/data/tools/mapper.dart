@@ -17,6 +17,7 @@ class ToolMapper {
     run.resultsListFirst = [dbModel.averageResultFirst];
     run.resultsListTwoRing = [dbModel.averageResultTwoRing];
     run.resultsListMultiClick = [dbModel.averageResultMultiClick];
+    run.mistake = dbModel.mistake;
     return run;
   }
 

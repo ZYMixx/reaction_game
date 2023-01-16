@@ -73,7 +73,6 @@ class GameMultiClickViewModel extends ChangeNotifier {
     }
     createRandomPosition(context);
     notifyListeners();
-    currentRun.mistake += 1;
   }
 
   updateRunState() {
