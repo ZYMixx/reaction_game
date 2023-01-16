@@ -73,8 +73,6 @@ class GameTwoRingViewModel extends ChangeNotifier {
     }
     changeColor();
     notifyListeners();
-
-    currentRun.mistake += 1;
   }
 
   updateRunState() {
